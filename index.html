@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <style>
+        body{
+            margin: 0px;
+        }
+        .P2P{
+            font-family: "Press Start 2P"
+        }
+        .roboto{
+            font-family: "Roboto";
+        }
+        .margem1{
+            margin-top: 80px;
+            margin-left: -50px;
+        }
+        .alehff{
+            width: 100vw;
+            height: 100vh;
+            background-color: #161B22;
+            display: flex;
+            justify-content: center;
+
+        }
+        .infos{
+            display: flex;
+            flex-flow: column;
+            text-align: center;
+            color: #FFFFFF;
+            margin-top: 22.83vh;
+            margin-left: 10.98vw;
+        }
+        .infos h2{
+            font-size: 1.5vw;
+        }
+        .infos p{
+            font-size: 1.3vw;
+        }
+
+        .buttonn{
+            border: none;
+            font-family: "Press Start 2P";
+            position: absolute;
+            font-size: 1.5vw;
+            width: 21.96vw;
+            height: 10.65vh;
+            margin-top: 38.05vh;
+            margin-left: 3vw;
+            
+            transform: skewX(-30deg);
+            background: linear-gradient(
+                90deg,
+                #d4b86a 3%,
+                #fff4b0 29.21%,
+                #ba8b2c 56.53%,
+                #dcc290 89.68%
+            );
+        }
+        .tamanho{
+            width: 29.3vw;
+            height: 76.1vh;
+        }
+        @media(max-width: 500px) {
+            .tamanho{
+                width: 32vw;
+                height: 50vh;
+                margin-left: 70px;
+                margin-top: 7vh;
+            }  
+            .buttonn{
+                border: none;
+                font-family: "Press Start 2P";
+                position: absolute;
+                font-size: 3vw;
+                width: 30vw;
+                height: 10.65vh;
+                margin-top: 30.0vh;
+                margin-left: 10vw;
+                
+                transform: skewX(-30deg);
+                background: linear-gradient(
+                    90deg,
+                    #d4b86a 3%,
+                    #fff4b0 29.21%,
+                    #ba8b2c 56.53%,
+                    #dcc290 89.68%
+                );
+            }
+            .infos h2{
+                font-size: 3vw;
+            }
+            .infos p{
+                font-size: 2.7vw;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <section class="alehff">
+        <div class="margem1">
+            <iframe class="tamanho" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d667.7922859893557!2d-1.4666507628936467!3d53.38368022480075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487978784f52b567%3A0xe67347f9d29e709e!2sCastle%20House%2C%20Sheffield%20City%20Centre%2C%20Sheffield%2C%20Reino%20Unido!5e0!3m2!1spt-BR!2sbr!4v1636778928326!5m2!1spt-BR!2sbr"  style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="infos">
+            <h2 class="P2P">Venha nos visitar!</h2>
+            <p class="roboto">Castle House, <br>
+                 Angel St, Sheffield City Centre, <br>
+                Sheffield S3 8LN, <br>
+                United Kingdom
+            </p>
+            
+            <button class="buttonn">Participe</button>
+        </div>
+
+
+    </section>
+</body>
+</html>
